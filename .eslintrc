@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": [
+    "@react-native-community/eslint-config",
+    "eslint-config-prettier"
+  ],
+  "rules": {
+    "prettier/prettier": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "none" // <--- THIS IS THE NEW RULE
+  }
+}
